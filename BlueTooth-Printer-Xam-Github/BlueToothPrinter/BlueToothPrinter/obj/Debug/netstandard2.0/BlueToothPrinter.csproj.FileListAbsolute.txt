@@ -1,0 +1,33 @@
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\bin\Debug\netstandard2.0\BlueToothPrinter.deps.json
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\bin\Debug\netstandard2.0\BlueToothPrinter.dll
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\bin\Debug\netstandard2.0\ref\BlueToothPrinter.dll
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\bin\Debug\netstandard2.0\BlueToothPrinter.pdb
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\Pages\msearch.xaml.g.cs
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\Pages\PrintPage.xaml.g.cs
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\BlueToothPrinter.AssemblyInfoInputs.cache
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\BlueToothPrinter.AssemblyInfo.cs
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\BlueToothPrinter.csproj.CoreCompileInputs.cache
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\BlueToothPrinter.dll
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\ref\BlueToothPrinter.dll
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\BlueToothPrinter.pdb
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\Pages\giris.xaml.g.cs
+C:\Users\mende\source\repos\BlueToothPrinter\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\BlueToothPrinter.csprojAssemblyReference.cache
+N:\Documents\İş\C# & C++ Otomasyon\BlueTooth-Printer-Xam-Github\BlueToothPrinter\BlueToothPrinter\bin\Debug\netstandard2.0\BlueToothPrinter.deps.json
+N:\Documents\İş\C# & C++ Otomasyon\BlueTooth-Printer-Xam-Github\BlueToothPrinter\BlueToothPrinter\bin\Debug\netstandard2.0\BlueToothPrinter.dll
+N:\Documents\İş\C# & C++ Otomasyon\BlueTooth-Printer-Xam-Github\BlueToothPrinter\BlueToothPrinter\bin\Debug\netstandard2.0\ref\BlueToothPrinter.dll
+N:\Documents\İş\C# & C++ Otomasyon\BlueTooth-Printer-Xam-Github\BlueToothPrinter\BlueToothPrinter\bin\Debug\netstandard2.0\BlueToothPrinter.pdb
+N:\Documents\İş\C# & C++ Otomasyon\BlueTooth-Printer-Xam-Github\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\App.xaml.g.cs
+N:\Documents\İş\C# & C++ Otomasyon\BlueTooth-Printer-Xam-Github\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+N:\Documents\İş\C# & C++ Otomasyon\BlueTooth-Printer-Xam-Github\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\Pages\giris.xaml.g.cs
+N:\Documents\İş\C# & C++ Otomasyon\BlueTooth-Printer-Xam-Github\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\Pages\msearch.xaml.g.cs
+N:\Documents\İş\C# & C++ Otomasyon\BlueTooth-Printer-Xam-Github\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\Pages\PrintPage.xaml.g.cs
+N:\Documents\İş\C# & C++ Otomasyon\BlueTooth-Printer-Xam-Github\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\BlueToothPrinter.AssemblyInfoInputs.cache
+N:\Documents\İş\C# & C++ Otomasyon\BlueTooth-Printer-Xam-Github\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\BlueToothPrinter.AssemblyInfo.cs
+N:\Documents\İş\C# & C++ Otomasyon\BlueTooth-Printer-Xam-Github\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\BlueToothPrinter.csproj.CoreCompileInputs.cache
+N:\Documents\İş\C# & C++ Otomasyon\BlueTooth-Printer-Xam-Github\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\XamlC.stamp
+N:\Documents\İş\C# & C++ Otomasyon\BlueTooth-Printer-Xam-Github\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\BlueToothPrinter.dll
+N:\Documents\İş\C# & C++ Otomasyon\BlueTooth-Printer-Xam-Github\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\ref\BlueToothPrinter.dll
+N:\Documents\İş\C# & C++ Otomasyon\BlueTooth-Printer-Xam-Github\BlueToothPrinter\BlueToothPrinter\obj\Debug\netstandard2.0\BlueToothPrinter.pdb

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BlueToothPrinter.MainPage"
+             xmlns:viewmodels="clr-namespace:BlueToothPrinter.ViewModels;assembly=BlueToothPrinter"
+             x:Name="cp2">
+
+    <ContentPage.BindingContext>
+        <viewmodels:PrintPageViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+
+
+        <Grid BackgroundColor="Black" >
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="0.1*"></RowDefinition>
+
+            </Grid.RowDefinitions>
+
+
+            <StackLayout  Grid.Column="0" Grid.Row="0">
+
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+
+                    <Button x:Name="btn1" Text="Bilgi Fişi Yazdır" VerticalOptions="CenterAndExpand" TextColor="Black" FontSize="18" Margin="50,0,50,0" BackgroundColor="DeepSkyBlue" BorderRadius="27"  Clicked="Button_Clicked" ></Button>
+                    <Button x:Name="btn2" Margin="50,0,50,0" Text="Boş" TextColor="Black"  FontSize="18"  BackgroundColor="DeepSkyBlue" BorderRadius="27" Clicked="btn2_Clicked"></Button>
+
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Margin="5,0,5,7" Grid.Row="1" Grid.Column="0">
+
+                <Picker x:Name="pic1" TextColor="White" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TitleColor="White" ItemsSource="{Binding DeviceList}" Title="Cihaz Seç"  ItemDisplayBinding="{Binding .}" SelectedItem="{Binding SelectedDevice}" />
+
+            </StackLayout>
+
+        </Grid>
+
+
+
+    </ContentPage.Content>
+
+</ContentPage>

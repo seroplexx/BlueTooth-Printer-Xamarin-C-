@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueToothPrinter.Android", "BlueToothPrinter\BlueToothPrinter.Android\BlueToothPrinter.Android.csproj", "{FD091DDE-EE26-44C5-BFB0-0E1B5CCA0BAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlueToothPrinter", "BlueToothPrinter\BlueToothPrinter\BlueToothPrinter.csproj", "{D60C3AEA-F693-4683-9D65-F1F6EEEEAFF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD091DDE-EE26-44C5-BFB0-0E1B5CCA0BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD091DDE-EE26-44C5-BFB0-0E1B5CCA0BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD091DDE-EE26-44C5-BFB0-0E1B5CCA0BAF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FD091DDE-EE26-44C5-BFB0-0E1B5CCA0BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD091DDE-EE26-44C5-BFB0-0E1B5CCA0BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD091DDE-EE26-44C5-BFB0-0E1B5CCA0BAF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D60C3AEA-F693-4683-9D65-F1F6EEEEAFF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60C3AEA-F693-4683-9D65-F1F6EEEEAFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60C3AEA-F693-4683-9D65-F1F6EEEEAFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60C3AEA-F693-4683-9D65-F1F6EEEEAFF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B307164-E087-4B59-A4D0-3948047DED3D}
+	EndGlobalSection
+EndGlobal

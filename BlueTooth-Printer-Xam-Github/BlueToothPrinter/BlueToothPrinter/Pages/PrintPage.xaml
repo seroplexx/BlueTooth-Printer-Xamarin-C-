@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:BlueToothPrinter.ViewModels;assembly=BlueToothPrinter"
+             x:Class="BlueToothPrinter.Pages.PrintPage"
+             xmlns:custom="clr-namespace:BlueToothPrinter"
+             Title="Custom Entry">
+    
+    <ContentPage.BindingContext>
+        <viewmodels:PrintPageViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <Grid BackgroundColor="FloralWhite">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="0.31*"/>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="0.2*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.Row="0" Grid.Column="0"  Margin="0,20" HorizontalOptions="Center">
+                <Image x:Name="myimage"></Image>
+                <Label Text="Göçmen Teknik" TextColor="Black" FontAttributes="Bold" FontSize="35" ></Label>
+                <Label Text="Müşteri Bilgi Fişi"  TextColor="DarkBlue" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="20"></Label>
+            </StackLayout>
+
+            <StackLayout Margin="0,10" Grid.Row="1" Grid.Column="0" Orientation="Vertical" VerticalOptions="Center" Padding="45"  >
+               
+                <custom:CustomEntry CornerRadius="20"  
+                                    TextChanged="degisimkontrol"
+                                 x:Name="ad"
+                                 Margin="0,10,0,10"
+                                 IsCurvedCornersEnabled="True"  
+                                 BorderColor="Black"      
+                                 BorderWidth="3"
+                                 HorizontalTextAlignment="Center"  
+                                 VerticalTextAlignment="Center"
+                                 FontSize="15.5"  
+                                 HeightRequest="42"  
+                                 Placeholder="Text 1"  
+                                 PlaceholderColor="Gray"  
+                                 TextColor="Black"  
+                                 FontAttributes="Bold"  
+                                 Text="{Binding PrintMessage}"
+                                 WidthRequest="80"/>
+                <custom:CustomEntry CornerRadius="20"  
+                                    TextChanged="degisimkontrol"
+                                    x:Name="gsm"
+                                    Keyboard="Telephone"
+                                    Margin="0,0,0,10"
+                                    BorderWidth="3"
+                             IsCurvedCornersEnabled="True"  
+                             BorderColor="Black"      
+                             HorizontalTextAlignment="Center"  
+                             FontSize="15.5"  
+                             HeightRequest="42"  
+                             Placeholder="Text 2" 
+                             PlaceholderColor="Gray"  
+                             TextColor="Black"  
+                             FontAttributes="Bold"  
+                             Text="{Binding PrintMessage1}"
+                             WidthRequest="80"/>
+                <custom:CustomEntry CornerRadius="20"  
+                                    TextChanged="degisimkontrol"
+                                    x:Name="adres"
+                                    Margin="0,0,0,10"
+                                    BorderWidth="3"
+                             IsCurvedCornersEnabled="True"  
+                             BorderColor="Black"      
+                             HorizontalTextAlignment="Center"  
+                             FontSize="15.5"  
+                             HeightRequest="42"  
+                             Placeholder="Text 3"
+                             PlaceholderColor="Gray"  
+                             TextColor="Black"  
+                             FontAttributes="Bold"  
+                             Text="{Binding PrintMessage2}"
+                             WidthRequest="80"/>
+                <custom:CustomEntry CornerRadius="20"  
+                                    x:Name="marka"
+                                    TextChanged="degisimkontrol"
+                                    Margin="0,0,0,10"
+                                    BorderWidth="3"
+                             IsCurvedCornersEnabled="True"  
+                             BorderColor="Black"    
+                             HorizontalTextAlignment="Center"  
+                             FontSize="15.5"  
+                             HeightRequest="42"  
+                             Placeholder="Text 4"
+                             PlaceholderColor="Gray"  
+                             TextColor="Black"  
+                             FontAttributes="Bold"  
+                             Text="{Binding PrintMessage3}"
+                             WidthRequest="80"/>
+                
+                <custom:CustomEntry CornerRadius="20"  
+                                     x:Name="ariza"
+                                    Margin="0,0,0,20"
+                                    TextChanged="degisimkontrol"
+                                    BorderWidth="3"
+                             IsCurvedCornersEnabled="True"  
+                             BorderColor="Black"      
+                             HorizontalTextAlignment="Center"  
+                             FontSize="15.5"  
+                             HeightRequest="42"  
+                             Placeholder="Text 5"
+                             PlaceholderColor="Gray"  
+                             TextColor="Black"  
+                             FontAttributes="Bold"  
+                             Text="{Binding PrintMessage4}"
+                                    
+                             WidthRequest="80"/>
+
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" >
+                    <RadioButton x:Name="rd1var" Content="Garanti Var" CheckedChanged="chan" Margin="0,0,30,0"></RadioButton>
+                    <RadioButton x:Name="rd2yok" Content="Garanti Yok" CheckedChanged="chan" ></RadioButton>
+                </StackLayout>
+
+                <Button Text="Fotoğraf" Margin="0,10,0,0" Clicked="Button_Clicked" HorizontalOptions="Center" HeightRequest="45" WidthRequest="150" FontSize="10" BorderRadius="20"  BackgroundColor="Orange" />
+                    <Entry x:Name="lbl1"  IsVisible="false" Text="{Binding SelectedDevice}"></Entry>
+                    <Entry x:Name="lbl2"  IsVisible="false" Text="{Binding rdbtn}"></Entry>
+
+            </StackLayout>
+
+            
+            <StackLayout Grid.Row="2" Grid.Column="0" Margin="6,0,0,2" Orientation="Vertical" HorizontalOptions="Center"  >
+
+                <Button x:Name="btn1" Text="Yazdır" Clicked="btn1_Clicked"  WidthRequest="350"  HeightRequest="40" BorderRadius="10"  BackgroundColor="DeepSkyBlue" Command="{Binding PrintCommand}" />
+
+            </StackLayout>
+
+
+        </Grid>
+        
+      
+    </ContentPage.Content>
+</ContentPage>
